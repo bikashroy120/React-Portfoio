@@ -1,0 +1,40 @@
+.n-wapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10vh;
+}
+
+.left_item{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.left_item h2{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.right_item{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.right_item ul{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.right_item ul li{
+    font-size: 17px;
+    font-weight: 500;
+    
+}
+
+.right_item ul li:hover{
+    cursor: pointer;
+    color: var(--orange);
+}
